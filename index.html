@@ -43,19 +43,16 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                <a class="nav-link" href="/index.html">
+                    <i class="fas fa-home"></i>
                     <span>Home</span>
                 </a>
             </li>
 
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
             <!-- Nav Item - Orders Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link" href="/pages/Orders.html">
-                    <i class="fas fa-fw fa-cog"></i>
+					<i class="fab fa-uncharted"></i>
                     <span>Orders</span>
                 </a>
             </li>
@@ -66,7 +63,7 @@
             <!-- Nav Item - Paymentss Collapse Menu -->
             <li class="nav-item">
                 <a class="nav-link collapsed" href="/pages/Payments.html">
-                    <i class="fas fa-fw fa-wrench"></i>
+                    <i class="fas fa-money-bill-wave-alt"></i>
                     <span>Payments</span>
                 </a>
             </li>
@@ -76,8 +73,8 @@
 
             <!-- Nav Item - Categories Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="/pages/Categories.html">
-                    <i class="fas fa-fw fa-folder"></i>
+                <a class="nav-link collapsed" href="pages/Categories.html">                  
+                    <i class="fas fa-sort"></i>
                     <span>Categories</span>
                 </a>
             </li>
@@ -87,7 +84,7 @@
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="/pages/Users.html">
+                <a class="nav-link" href="pages/Users.html">
                     <i class="fas fa-fw fa-chart-area"></i>
                     <span>Users</span></a>
             </li>
@@ -128,27 +125,12 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
-                                <img class="img-profile rounded-circle"
-                                    src="img/undraw_profile.svg">
+                                <i class="fas fa-user"></i>
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="userDropdown">
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
-                                </a>
-                                <a class="dropdown-item" href="#">
-                                    <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
-                                </a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                                <a class="dropdown-item" href="/login.html" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                                     Logout
                                 </a>
@@ -166,9 +148,6 @@
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-                            <i class="fas fa-download fa-sm text-white-50"></i> Generate Payments
-                        </a>
                     </div>
 
                     <!-- Content Row -->
@@ -203,7 +182,7 @@
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">₦215,000</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                            <i class="fas fa-coins fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -219,7 +198,7 @@
                         <!-- Table  of New Orders -->
                         <div class="card shadow col-12 mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">New Orders</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Recent Orders</h6>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -227,40 +206,29 @@
                                         <thead>
                                             <tr>
                                                 <th>Order Id</th>
-                                                <th>Name</th>
+                                                <th>User</th>
                                                 <th>Category</th>
-                                                <th>Date</th>
                                                 <th>Amount</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td><i>44fhhgj</i></td>
-                                                <td>Edinburgh</td>
-                                                <td>Twitter</td>
-                                                <td>2013/03/03</td>
-                                                <td>342,000</td>
-                                            </tr>
-                                            <tr>
                                                 <td><i>fg78s</i></td>
                                                 <td>Charde Marshall</td>
-                                                <td>36</td>
-                                                <td>2008/10/16</td>
-                                                <td>470,600</td>
+                                                <td>Facebook likes</td>
+                                                <td>₦7,600</td>
                                             </tr>
                                             <tr>
                                                 <td><i>45fqw</i></td>
                                                 <td>Haley Kennedy</td>
-                                                <td>43</td>
-                                                <td>2012/12/18</td>
-                                                <td>313,500</td>
+                                                <td>Instagram comments</td>
+                                                <td>₦3,500</td>
                                             </tr>
                                             <tr>
                                                 <td><i>dd65y</i></td>
                                                 <td>Tatyana Fitzpatrick</td>
-                                                <td>Instagram</td>
-                                                <td>2010/03/17</td>
-                                                <td>385,750</td>
+                                                <td>Instagram likes</td>
+                                                <td>₦5,750</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -272,7 +240,7 @@
                         <!-- Table  of Manual Payments -->                        
                         <div class="card shadow col-12 mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Manual Payments</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Recent Payments</h6>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -280,37 +248,29 @@
                                         <thead>
                                             <tr>
                                                 <th>Payment Id</th>
-                                                <th>Name</th>
+                                                <th>User</th>
                                                 <th>Category</th>
-                                                <th>Bank</th>
-                                                <th>Date</th>
-                                                <th>Category</th>
+                                                <th>Amount</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td><i>412fg</i></td>
                                                 <td>Charde Marshall</td>
-                                                <td>Facebook</td>
-                                                <td>GTB</td>
-                                                <td>2008/10/16</td>
-                                                <td>470,600</td>
+                                                <td>Facebook comments</td>
+                                                <td>₦4,600</td>
                                             </tr>
                                             <tr>
                                                 <td><i>shd48</i></td>
                                                 <td>Haley Kennedy</td>
-                                                <td>Twitter</td>
-                                                <td>Access</td>
-                                                <td>2012/12/18</td>
-                                                <td>313,500</td>
+                                                <td>Twitter likes</td>
+                                                <td>₦3,500</td>
                                             </tr>
                                             <tr>
                                                 <td><i>cvb83</i></td>
                                                 <td>Tatyana Fitzpatrick</td>
-                                                <td>Youtube</td>
-                                                <td>Polaris</td>
-                                                <td>2010/03/17</td>
-                                                <td>385,750</td>
+                                                <td>Youtube subscription</td>
+                                                <td>₦3,750</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -330,7 +290,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; AlmightyGains 2021</span>
                     </div>
                 </div>
             </footer>
