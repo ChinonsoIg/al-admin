@@ -19,47 +19,7 @@
 
     <!-- Custom styles for this template-->
     <link href="/css/sb-admin-2.min.css" rel="stylesheet">
-    <style>
-      .return {
-	cursor: pointer;
-  }
-  .user-detail {
-	display: grid;
-	grid-template-areas: 
-	"avatar-user-detail text-user-detail text-user-detail text-user-detail"
-	;
-	grid-gap: 10px;
-  }
-  .avatar-user-detail {
-	grid-area: avatar-user-detail;
-	border: 3px solid rgb(1, 1, 78);
-	width: 150px;
-	height: 150px;
-	border-radius: 50%;
-  }
-  .text-user-detail {
-	grid-area: text-user-detail;
-	font-size: medium;
-	font-weight: light;
-	align-self: flex-start;
-  }
-  .age {
-	font-weight: lighter;
-	margin-left: 10px;
-  }
-  .email {
-	background-color: #d6d6d7;
-	border-radius: 20px;
-	padding-left: 5px;
-  }
-  .joined {
-	background-color: #dbb1b896;
-	border-radius: 20px;
-	padding-left: 5px;
-  }
-  
-    </style>
-
+   
 </head>
 
 <body id="page-top">
@@ -71,11 +31,8 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+            <a class="sidebar-brand d-flex align-items-center justify-content-start" href="index.html" style="background-color: white; padding: 0;">
+                <img src="/img/almighty-gain-logo.png" alt="" style="height: 4rem;">
             </a>
 
             <!-- Divider -->
@@ -88,6 +45,9 @@
                     <span>Home</span>
                 </a>
             </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider">
 
             <!-- Nav Item - Orders Collapse Menu -->
             <li class="nav-item">
@@ -187,12 +147,15 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <a href="UserInfo.html" class="btn btn-primary btn-icon-split">
+                        <a href="/index.html" class="btn btn-primary btn-icon-split">
 							<span class="icon text-white-50">
 								<i class="fas fa-arrow-left"></i>
 							</span>
 							<span class="text">Return</span>
 						</a>
+                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                            <i class="fas fa-print fa-sm text-white-50 px-2"></i>Print
+                        </a>
                     </div>
                     
                     <!-- Content Row -->
@@ -218,15 +181,9 @@
                                         <tbody>
                                             <tr>
                                                 <td><i>44fhhgj</i></td>
-                                                <td>Edinburgh</td>
+                                                <td>John Edinburgh</td>
 												<td>ja@john.com</td>
                                                 <td>Twitter likes</td>
-                                            </tr>
-                                            <tr>
-                                                <td><i>45fqw</i></td>
-                                                <td>Haley Kennedy</td>
-                                                <td>gf@hn.com</td>
-                                                <td>Youtube likes</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -277,7 +234,7 @@
                 <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <a class="btn btn-primary" href="/login.html">Logout</a>
                 </div>
             </div>
         </div>
