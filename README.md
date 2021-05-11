@@ -3,13 +3,19 @@
 ## Description
 This is the Admin Dashboard for the AlmightyGains website.
 
-## Download and Installation
+## Prerequisites
 
+### List of dependencies
+* browser-sync
+* gulp
+* merge-stream
+* fontawesome
+* bootstrap
+* jquery
+
+### Download and Installation
 * Clone the repo: `git clone https://github.com/ChinonsoIg/al-admin.git`
-
-## Usage
-
-After installation, run `npm install` to install the node_modules. Then run `npm start` which will open up a preview of the site in your default browser. Live reload is enabled when changes to the file are saved.
+* Run `npm install` to install the node_modules. Then run `npm start` which will open up a preview of the site in your default browser. Live reload is enabled when changes to the file are saved.
 
 ### Gulp Tasks
 
@@ -27,11 +33,6 @@ You must have npm installed globally in order to use this build environment. If 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/ChinonsoIg/al-admin.git/issues) here on GitHub.
 
 
-## Copyright and License
-
-Copyright 2021 license.
-
-
 ## Communication channels
 
 Slack & Zoom
@@ -39,6 +40,6 @@ Slack & Zoom
 
 ## Engineers
 
-  Clinton Nzedimma
-  Ojoechem Chinonso
-  Emmanuel Enobakhare
+* Clinton Nzedimma
+* Ojoechem Chinonso
+* Emmanuel Enobakhare
